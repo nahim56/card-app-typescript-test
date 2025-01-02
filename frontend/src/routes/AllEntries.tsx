@@ -9,8 +9,8 @@ export default function AllEntries(){
     if(entries.length == 0){
         return(
             <section>
-                <h1 className="text-center font-semibold text-2xl m-5">You don't have any cards</h1>
-                <p className="text-center font-medium text-md">Lets <Link className="text-blue-400 underline underline-offset-1" to="/create">Create One</Link></p>
+                <h1 className="text-center font-semibold text-2xl m-5 dark:text-white ">You don't have any cards</h1>
+                <p className="text-center font-medium text-md dark:text-white">Lets <Link className="text-blue-400 underline underline-offset-1" to="/create">Create One!</Link></p>
             </section>
         )
     }
