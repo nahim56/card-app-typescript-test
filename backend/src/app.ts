@@ -1,5 +1,6 @@
 import { server } from "./server"
 
+
 server
   .listen(process.env.PORT || 3001, "0.0.0.0")
   .then(() =>
@@ -8,3 +9,6 @@ server
   .catch((error) => {
     console.log(error.message);
   });
+
+
+

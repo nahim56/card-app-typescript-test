@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.icon-size {
+    height: 48px;
+    width: 48px;
+    margin-top: 20px;
+    margin-right: 8px;
+    
+    
+}
+
+.nav-button {
+    margin: 0.75rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #60a5fa;
+    color: white;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #3b82f6;
+  }
+
+.drop-down {
+    background-color: #50A5FA;
+    border-radius: 0.375rem;
+    padding: 1.25rem; 
+    margin-right: 8px;
+    transition: height 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .drop-down:hover {
+    background-color: #2563eb; /* hover:bg-blue-500 */
+  }
+  
+  .drop-down-position {
+    position: absolute;
+    top: 100%;
+    right: 0;
+  }
